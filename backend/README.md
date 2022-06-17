@@ -7,7 +7,7 @@ Final year project on 'Build Nepal' using react js.
 * [Download](https://www.python.org/downloads/) and install python.
 * Clone the repo by running the following command
     * ```bash
-      git clone https://github.com/alkawaiba/Project.git
+      git clone https://github.com:alkawaiba/Build_Nepal.git
       ```
 * Goto the project main folder using the following command
     * ```bash
