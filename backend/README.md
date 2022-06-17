@@ -1,4 +1,4 @@
-# Project
+# Build_Nepal
 
 Final year project on 'Build Nepal' using react js.
 
@@ -11,7 +11,7 @@ Final year project on 'Build Nepal' using react js.
       ```
 * Goto the project main folder using the following command
     * ```bash
-      cd Project
+      cd Build_Nepal/backend
       ```
 * Setting up the project
     * if on linux based OS, run the following command
