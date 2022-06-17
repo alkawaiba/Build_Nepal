@@ -1,0 +1,18 @@
+.successContainer{
+
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    background-color: #272b34;
+    padding-bottom: 100ex;
+
+}
+
+.successContainer h1 {
+    color: white;
+}
+
+.successContainer img {
+    align-items: center;
+}

@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+.badgeContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position : fixed;
+  top : 92px;
+  right : 20px;
+  width:45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: whitesmoke;
+  cursor: pointer;
+  transition : all 0.5s ease-in-out;
+}
+
+.badgeContainer:hover{
+  transform: scale(1.05);
+}

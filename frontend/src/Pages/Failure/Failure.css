@@ -1,0 +1,13 @@
+.failureContainer{
+
+    display: flex;
+    align-items: center;
+    
+    justify-content: center;
+    background-color: #272b34;
+    padding-bottom: 100ex;
+}
+
+.failureContainer h1 {
+    color: white;
+}

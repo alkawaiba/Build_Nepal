@@ -1,0 +1,55 @@
+.legalTerms{
+    padding : 10px;
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    background-color: #A19696;
+}
+
+.privacy{
+    padding : 20px;
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    transition : all 0.5s ease-in-out;
+    cursor: pointer;
+}
+.privacy:hover{
+    transform: scale(1.05);
+}
+.privacyH1{
+    margin-bottom: 10px;
+}
+.privacyDesc{
+    font-size: 18px;
+}
+.terms{
+    border-radius: 10px;
+    padding : 20px;
+    width: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+    transition : all 0.5s ease-in-out;
+    cursor : pointer;
+    background-color: whitesmoke;
+    
+}
+.terms:hover{
+    transform: scale(1.05);
+}
+.termsH1{
+    margin-bottom: 20px;
+}
+.termsDesc{
+    font-size: 18px;
+}
+
+.termsAgreement{
+    display: flex;
+    align-items: center;
+}

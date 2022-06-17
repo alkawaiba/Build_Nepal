@@ -1,0 +1,40 @@
+.technicianContainer{
+    padding : 20px;
+    background-color: rgb(32, 38, 48);
+}
+   
+.technicianWrapper{
+    display : flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+
+}
+
+.technicianContainer h1{
+    color : white;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.individual {
+
+   width: 350px;
+   height: 380px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;;
+    padding : 10px;
+    margin : 10px;
+    cursor : pointer;
+    transition: all 0.5s ease-in-out;;
+    background-color: white;
+
+}
+.individual:hover{
+    transform: scale(1.06);
+}
+.individualImage{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+
+}
