@@ -16,7 +16,7 @@ Final year project on 'Build Nepal' using react js.
 * Setting up the project
     * if on linux based OS, run the following command
         * ```bash
-          sudo apt install python3-pip
+          sudo apt install python3 -pip
           ```
     * Install dependencies by running the following command
         * ```bash
