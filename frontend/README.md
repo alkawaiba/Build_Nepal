@@ -6,11 +6,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, first install npm and you can run:
 
- * ```bash
+  ```bash
       npm install
       ```
 
- * ```bash
+ ```bash
       npm start
       ```
 
