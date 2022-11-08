@@ -31,6 +31,7 @@ import Electricians from './Pages/Electrician/Electrician';
 import Welders from './Pages/Welder/Welder';
 import Painters from './Pages/Painters/Painters';
 import CraneOperators from './Pages/CraneOperators/CraneOperators';
+import SuccessMember from "./Pages/SuccessMember/SuccessMember";
 
 
 function App() {
@@ -107,6 +108,10 @@ function App() {
         <Route path = '/technicians/welders' element = {<Welders />} />
         <Route path = '/technicians/painters' element = {<Painters />} />
         <Route path = '/technicians/craneoperators' element = {<CraneOperators />} />
+        <Route
+            path="/success-member"
+            element={<SuccessMember setMember={setMember} />}
+          />
       </Routes>
     </Router>
 
