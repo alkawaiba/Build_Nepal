@@ -21,3 +21,35 @@
     padding : 10px;
     margin: 10px;
 }
+
+.cobtn {
+    padding : 10px;
+    margin: 10px;
+    padding-left: 100px;
+    padding-right: 110px;
+    background-color: rgb(118, 146, 173);
+}
+
+
+.snbtn {
+    padding : 10px;
+    margin: 10px;
+    background-color: rgb(118, 146, 173);
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.snbtn:hover {
+    background-color: #648edc;
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
+    cursor: pointer;
+}
+
+.cobtn:hover {
+    background-color: #648edc;
+    -webkit-transform: scale(1.03);
+            transform: scale(1.03);
+    cursor: pointer;
+}
