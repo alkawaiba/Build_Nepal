@@ -4,6 +4,8 @@ import checkCircle from './check-circle.svg'
 import xSquare from './x-square.svg'
 import { useState } from 'react'
 
+import Esewa from "../../components/Payment/Esewa/Esewa";
+
 import { useNavigate } from 'react-router-dom';
 import StripeCheckout from "react-stripe-checkout";
 import axios from 'axios';
@@ -104,7 +106,7 @@ const MemberShip = ({signedIn, member, setMember}) => {
         Feature F
       </div> */}
       <h3 className = 'membershipH3'>Duration : {item.membership_validity_in_months} Months</h3>
-      <StripeCheckout
+      {/* <StripeCheckout
               name="Build Nepal "
               image="https://ml8mzf2qdhvl.i.optimole.com/QtrEnA8-7AY3OSJ1/w:474/h:355/q:mauto/rt:fill/g:sm/https://www.buildupnepal.com/wp-content/uploads/2020/06/cseb-machine.jpg"
               billingAddress
@@ -115,7 +117,9 @@ const MemberShip = ({signedIn, member, setMember}) => {
               token = {onToken}
             >
               <button className = "cartSummaryButton">START TODAY</button>
-            </StripeCheckout>
+            </StripeCheckout> */}
+
+        <Esewa price={item?.price} membership={true} setMember/> 
           </div>
         })
       }
